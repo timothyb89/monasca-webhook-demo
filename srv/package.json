@@ -1,0 +1,17 @@
+{
+  "name": "monasca-webhook-demo-srv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "express-ws": "^3.0.0",
+    "ws": "^2.1.0"
+  }
+}
