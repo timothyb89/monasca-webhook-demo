@@ -9,7 +9,8 @@ class WebSocketManager {
   }
 
   connect() {
-    this.socket = new WebSocket('ws://localhost:3030/ws');
+    const url = 'ws://' + window.location.host +  '/ws';
+    this.socket = new WebSocket(url);
     this.socket.onmessage = e => this.handleMessage(e);
 
     this.socket.onerror = e => {
